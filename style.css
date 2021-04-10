@@ -40,4 +40,11 @@ img {
   p {
     font-size: 3vh;
   }
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .container > li {
+    flex-basis: 100%;
+  }
 }
