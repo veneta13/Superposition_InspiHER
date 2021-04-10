@@ -3,6 +3,10 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+header {
+  background-color: white;
+}
+
 h1 {
   margin-left: 1vw;
   font-family: "Stalemate", cursive;
@@ -22,6 +26,15 @@ img {
 #logo {
   height: 10vh;
   width: auto;
+}
+
+nav a {
+  color: #f8dd4e;
+}
+
+nav a:hover {
+  background-color: #03989e;
+  text-decoration: none;
 }
 
 /* responsive site media query */
