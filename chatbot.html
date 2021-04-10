@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <!-- Title -->
-    <title>InspiHER </title>
+    <title>InspiHER Chatbot</title>
 
     <!-- Meta tags -->
     <meta charset="utf-8" />
@@ -12,6 +12,17 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="mystyle.css" />
 
     <!-- Font links -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -24,26 +35,35 @@
   </head>
   <body>
     <div id="container-fluid">
+     
       <header>
-        <!-- Logo -->
-        <img src="#" />
-        <!-- Navigation -->
-        <nav class="nav nav-pills  nav-justified flex-sm-column">
-          <li class="nav-item">
-            <a href="index.html"> Home </a>
-          </li>
-          <li class="nav-item">
-            <a href="about.html"> About </a>
-          </li>
-          <li class="nav-item">
-            <a href="chatbot.html"> Chatbot  </a>
-          </li>
-          <li class="nav-item">
-            <a href="#"> </a>
-          </li>
-          <li class="nav-item">
-            <a href="contact.html"> Contact </a>
-          </li>
+        <nav class="navbar navbar-expand-md navbar-light bg-light ">
+          <a href="#" class="navbar-brand">
+            <img src="img/transparent_logo.png" height="60" alt="Logo" />
+          </a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+              <a href="index.html" class="nav-item nav-link">Home</a>
+              <a href="about.html" class="nav-item nav-link">About us</a>
+              <a href="learn.html" class="nav-item nav-link">Learn</a>
+              <a href="forum.html" class="nav-item nav-link">Share</a>
+              <a href="opportunities.html" class="nav-item nav-link"
+                >Opportunities</a
+              >
+              <a href="relax.html" class="nav-item nav-link">Relax</a>
+              <a href="chatbot.html" class="nav-item nav-link">Chatbot</a>
+              <a href="contact.html" class="nav-item nav-link">Contact us</a>
+            </div>
+          </div>
         </nav>
       </header>
 
