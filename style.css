@@ -4,14 +4,14 @@ body {
 }
 
 h1 {
-  padding: 1vw;
+  margin: 1vw;
   font-family: "Stalemate", cursive;
   font-size: 7vh;
   color: #03989e;
 }
 
 p {
-  padding: 1vw;
+  margin: 1vw;
   font-size: 3vh;
 }
 
