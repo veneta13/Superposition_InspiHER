@@ -2,21 +2,35 @@ body {
   background-color: white;
   font-family: "Raleway", sans-serif;
 }
+
 h1 {
   font-family: "Stalemate", cursive;
-  font-size: 8vh;
+  font-size: 7vh;
   color: #03989e;
 }
+
+p {
+  font-size: 3vh;
+}
+
 img {
   max-width: 80%;
 }
+
+/* responsive site media query */
 @media (min-width: 1200px) {
   h1 {
     font-size: 10vh;
+  }
+  p {
+    font-size: 4vh;
   }
 }
 @media (max-width: 768px) {
   h1 {
     font-size: 5vh;
+  }
+  p {
+    font-size: 3vh;
   }
 }
