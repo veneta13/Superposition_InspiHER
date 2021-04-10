@@ -22,7 +22,7 @@ img {
 /* responsive site media query */
 @media (min-width: 1200px) {
   h1 {
-    font-size: 10vh;
+    font-size: 9vh;
   }
   p {
     font-size: 4vh;
