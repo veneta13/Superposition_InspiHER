@@ -7,17 +7,21 @@ header {
   background-color: white;
 }
 
+@font-face {
+  font-family: BukhariScript;
+  src: url("../font/Bukhari_Script.ttf");
+  font-style: cursive;
+}
+
 h1 {
   margin-left: 1vw;
-  font-family: "Stalemate", cursive;
-  font-size: 7vh;
+  font-family: "BukhariScript", cursive;
+  font-size: 6vh;
   color: #03989e;
-  text-shadow: 1px 1px #ff7cbf;
 }
 
 h2 {
-  font-size: 6vh;
-  text-shadow: 1px 1px #ff7cbf;
+  font-size: 5vh;
 }
 
 p {
@@ -37,10 +41,10 @@ img {
 /* responsive site media query */
 @media (min-width: 1200px) {
   h1 {
-    font-size: 8vh;
+    font-size: 7vh;
   }
   h2 {
-    font-size: 7vh;
+    font-size: 5vh;
   }
   p {
     font-size: 4vh;
@@ -48,10 +52,10 @@ img {
 }
 @media (max-width: 768px) {
   h1 {
-    font-size: 6vh;
+    font-size: 4vh;
   }
   h2 {
-    font-size: 5vh;
+    font-size: 3vh;
   }
   p {
     font-size: 3vh;
