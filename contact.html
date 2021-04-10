@@ -19,7 +19,7 @@
     <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-    <!-- Latest compiled JavaScript -->
+    <!-- Compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="mystyle.css" />
@@ -33,6 +33,9 @@
 
     <!-- CSS rel -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact-form.css" />
+    <link rel="stylesheet" href="animation.css" />
+
   </head>
 
   <body>
@@ -67,6 +70,63 @@
           </div>
         </nav>
       </header>
+
+      <section class="offset-md-2 col-md-8 rounded" >
+        <p style="font-size: 3vh"> Want to combat the <b>education</b> and <b>workforce</b> gap?</p>
+        <p style="font-size: 3vh">Want to become involved and work alongside <b>passionate</b> and <b>ambitious</b> women? </p>
+        <p style="font-size: 3vh"><span style="color:#FFBD59"><b>We are recruiting!</b></span> Fill out our volunteer or ambassador form below! </p>
+      </section>
+
+      <form action="post" method="post" class="offset-md-3 col-md-6">
+        <div class="form-group">
+          <label for="name">First Name</label>
+            <input
+              type="text"
+              id="contact_firstname"
+              name="firstname"
+              class="form-control"
+              placeholder="Enter your first name here..."
+            />
+        </div>
+
+        <div class="form-group">
+          <label for="name">Last Name</label>
+          <input
+            type="text"
+            id="contact_lastname"
+            name="lastname"
+            class="form-control"
+            placeholder="Enter your last name here..."
+          />
+        </div>
+
+          <div class="form-group">
+          <label id="email-label" for="email">E-mail</label>
+          <input
+            class="form-control"
+            type="email"
+            id="contact_email"
+            name="email"
+            placeholder="yourmail@mail.com"
+            pattern="[^ @]*@[^ @]*"
+            required
+          />
+          </div>
+
+          <div class="form-group">
+          <label for="subject">Subject</label>
+          <textarea
+            id="contact_subject"
+            name="subject"
+            class="form-control"
+            placeholder="Write your message here..."
+            style="height: 30vh;"
+          ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
     </div>
   </body>
 </html>

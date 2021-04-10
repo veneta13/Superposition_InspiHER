@@ -1,0 +1,13 @@
+label {
+  display: block;
+  font-size: 4vh;
+  font-family: Oleo Script;
+  color: #03989e;
+}
+
+button:hover {
+  animation-name: hologram;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  transition-timing-function: ease-in-out;
+}
