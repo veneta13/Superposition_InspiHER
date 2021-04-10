@@ -12,6 +12,12 @@ h1 {
   font-family: "Stalemate", cursive;
   font-size: 7vh;
   color: #03989e;
+  text-shadow: 1px 1px #ff7cbf;
+}
+
+h2 {
+  font-size: 6vh;
+  text-shadow: 1px 1px #ff7cbf;
 }
 
 p {
@@ -33,12 +39,18 @@ img {
   h1 {
     font-size: 8vh;
   }
+  h2 {
+    font-size: 7vh;
+  }
   p {
     font-size: 4vh;
   }
 }
 @media (max-width: 768px) {
   h1 {
+    font-size: 6vh;
+  }
+  h2 {
     font-size: 5vh;
   }
   p {
