@@ -5,3 +5,6 @@ body {
 h1 {
   font-family: "Stalemate", cursive;
 }
+img {
+  max-width: 80%;
+}
