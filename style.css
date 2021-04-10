@@ -19,6 +19,11 @@ img {
   max-width: 80%;
 }
 
+#logo {
+  height: 10vh;
+  width: auto;
+}
+
 /* responsive site media query */
 @media (min-width: 1200px) {
   h1 {

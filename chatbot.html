@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Title -->
+    <title>InspiHER </title>
+
+    <!-- Meta tags -->
+    <meta charset="utf-8" />
+
+    <!-- Bootstrap link -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <!-- Font links -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Stalemate&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS rel -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container-fluid">
+      <header>
+        <!-- Logo -->
+        <img src="#" />
+        <!-- Navigation -->
+        <nav class="nav nav-pills  nav-justified flex-sm-column">
+          <li class="nav-item">
+            <a href="index.html"> Home </a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html"> About </a>
+          </li>
+          <li class="nav-item">
+            <a href="chatbot.html"> Chatbot  </a>
+          </li>
+          <li class="nav-item">
+            <a href="#"> </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html"> Contact </a>
+          </li>
+        </nav>
+      </header>
+
+        <section class="main">
+                <div class="user-area">
+                  
+                </div>
+                <div class="chatarea-main">
+                    <div class="chatarea-outer">
+                        <!-- <div class="chatarea-inner user">Hello hi, how area you, i am good. What about you!</div>
+                        <div class="chatarea-inner chatbot">Hello hi, how area you, i am good. What about you!</div>
+                        <div class="chatarea-inner user">Hello hi, how area you, i am good. What about you!</div> -->
+                    </div>
+                </div>    
+                <div class="chatbot-area">
+                    <img src="img/mascot">
+                </div>
+            <button id="mic"><i class="flaticon-microphone"></i></button>
+        </section>
+        <script src="main.js"></script>
+        <script>
+            var menubtn = document.getElementById("menubtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+            
+            sideNav.style.right="-250px";
+            
+            menubtn.onclick = function(){
+                if(sideNav.style.right == "-250px"){
+                    sideNav.style.right="0";
+               
+                }
+                else{
+                    sideNav.style.right="-250px";
+                }
+            }
+            </script>
+            <script>
+                var menubtn = document.getElementById("menubtn")
+                var sideNav = document.getElementById("sideNav")
+                var menu = document.getElementById("menu")
+                
+                sideNav.style.right="-250px";
+                
+                menubtn.onclick = function(){
+                    if(sideNav.style.right == "-250px"){
+                        sideNav.style.right="0";
+                  
+                    }
+                    else{
+                        sideNav.style.right="-250px";
+                    }
+                }
+                </script>
+    </body>
+    </html>
