@@ -28,12 +28,13 @@ img {
   width: auto;
 }
 
-nav a {
+nav-item {
   color: #f8dd4e;
 }
 
-nav a:hover {
+nav-item:hover {
   background-color: #03989e;
+  color: white;
   text-decoration: none;
 }
 
