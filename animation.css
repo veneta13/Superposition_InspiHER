@@ -1,0 +1,28 @@
+@keyframes hologram {
+  16% {
+    background-color: #ffbd59;
+  }
+  32% {
+    background-color: #f7b5a2;
+  }
+  50% {
+    background-color: #b1d2e9;
+  }
+  66% {
+    background-color: #facae3;
+  }
+  85% {
+    background-color: #03989e;
+  }
+  100% {
+    background-color: #ffffff;
+  }
+}
+
+#animationSpace {
+  background-color: #ffffff;
+  animation-name: hologram;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  transition-timing-function: ease-in-out;
+}
