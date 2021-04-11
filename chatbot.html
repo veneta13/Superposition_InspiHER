@@ -322,7 +322,8 @@ function answer(x) {
           </div>
         </nav>
       </header>
-        <textarea readonly="true" id="botChat" style="text-align:left; position:fixed; display:block; top:3vh; border:1px solid black; width:92.5vw; margin-left:1%; margin-right:2.25%; height:75vh; resize:none; font-family:monospace; overflow-y:auto; user-select:none; font-size:3vw;"></textarea>            
+        <textarea readonly="true" class="offset-md-2 col-md-8" id="botChat" style="text-align:left; display:flex; border:1px #03989e; width:92.5vw; font-family:monospace; overflow-y:auto; user-select:none; font-size:3vw;"></textarea>            
+        <p style="position:absolute; border:1px solid rgb(255, 255, 255); top:78vh; left:12.25vw; width:75vw;">    
         <input type="text" placeholder="Ask a question" onKeypress="enterButton(event, document.getElementsByTagName('input')[0].value);" style="color:rgb(146, 146, 233); background-color:rgb(255, 255, 255); width:79%;">       
         <button onClick="answer(document.getElementsByTagName('input')[0].value)">Talk To our ChatBot</button></p>       
      </body>
