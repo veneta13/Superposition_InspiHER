@@ -30,6 +30,19 @@
 
     <!-- CSS rel -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Button JavaScript -->
+    <script>
+    function toggleVisibility() {
+      var x = document.getElementById("p_1");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    </script>
+
   </head>
 
   <body>
@@ -76,18 +89,18 @@
       <br/>
       <div class="row">
         <section style="margin-top: 2vh;" class="col-md-4">
-            <b><h2 style="color:#30CBD1;">Educate</h2></b>
-            <p>We provide accessible and engaging content- check out our available jobs, internships, and other learning resources! </p>
+            <b><h2 class="text-center"  style="color:#30CBD1;">Educate</h2></b>
+             <p id="p_1">We provide accessible and engaging content- check out our available jobs, internships, and other learning resources! </p>
         </section>
 
         <section style="margin-top: 2vh;" class="col-md-4">
-          <b><h2 style="color:#30CBD1;">Empower</h2></b>
-          <p>Our online forum connects women and non-binary people from around the world, by providing a space to chat. Need advice? Our experienced team of mentors can help.</p>
+          <b><h2 class="text-center" style="color:#30CBD1;">Empower</h2></b>
+          <p id="p_2">Our online forum connects women and non-binary people from around the world, by providing a space to chat. Need advice? Our experienced team of mentors can help.</p>
         </section>
 
         <section style="margin-top: 2vh;" class="col-md-4">
-        <b><h2 style="color:#30CBD1;">Elevate</h2></b>
-        <p>We want to elevate the experience of education, which is why we are constantly innovating new programs and tools to help YOU succeed. </p>
+        <b><h2 class="text-center" style="color:#30CBD1;">Elevate</h2></b>
+        <p id="p_3">We want to elevate the experience of education, which is why we are constantly innovating new programs and tools to help YOU succeed. </p>
         </section>
       </div>
       <br/>
@@ -104,29 +117,9 @@
       <br/>
 
       <div class="row">
-          <section style="margin-top: 2vh;" class="col-md-3">
-            <p class="text-center">Jennie</p>
-            <img src="#"/>
-            <p>A Vietnamese American woman, aspiring entrepreneur and business leader</p>
-            <p>Educational equity is my top priority, and I found that InspiHER gave me so many opportunities that I didn´t even know was possible. The connections I´ve made are priceless</p>
-          </section>
-          <section style="margin-top: 2vh;" class="col-md-3">
-            <p class="text-center">Samayeeta</p>
-            <img src="#"/>
-            <p>texttexttexttext</p>
-            </section>
-          <section style="margin-top: 2vh;" class="col-md-3">
-            <p class="text-center">Sarah</p>
-            <img src="#"/>
-            <p>A high school student, interested in using computer science to make the world a better place</p>
-            <p>I believe that access to education and equality of access are an integral part in making the world a more fair, accessible place for everyone. Through technology, we can help to bridge the gap that has been prevalent for so long.</p>
-          </section>
-          <section style="margin-top: 2vh;" class="col-md-3">
-            <p class="text-center">Veneta</p>
-            <img src="#"/>
-            <p>A Computer Science major passionate about Web Design</p>
-            <p>I believe that equality is an integral part of a fair society, so I loved helping in building a project that brings us a step closer</p>
-          </section>
+          <div class="offset-md-1 col-md-10">
+            <img class="img-fluid" src="img/bio.png" alt="Our team" />
+          </div>
       </div>
 
     </body>
