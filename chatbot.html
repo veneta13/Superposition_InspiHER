@@ -291,7 +291,37 @@ function answer(x) {
             } function enterButton(e, x) { if (e.keyCode == 13) { answer(x); }   }   
     </script>
     </head>
-    <body  style="text-align:center;">         
+    <body class="container-fluid"> 
+        <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light ">
+          <a href="#" class="navbar-brand">
+            <img src="img/transparent_logo.png" height="60" alt="Logo" />
+          </a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+              <a href="index.html" class="nav-item nav-link">Home</a>
+              <a href="about.html" class="nav-item nav-link">About us</a>
+              <a href="learn.html" class="nav-item nav-link">Learn</a>
+              <a href="forum.html" class="nav-item nav-link">Share</a>
+              <a href="opportunities.html" class="nav-item nav-link"
+                >Opportunities</a
+              >
+              <a href="relax.html" class="nav-item nav-link">Relax</a>
+              <a href="chatbot.html" class="nav-item nav-link">Chatbot</a>
+              <a href="contact.html" class="nav-item nav-link">Contact us</a>
+            </div>
+          </div>
+        </nav>
+      </header>
         <textarea readonly="true" id="botChat" style="text-align:left; position:fixed; display:block; top:3vh; border:1px solid black; width:92.5vw; margin-left:1%; margin-right:2.25%; height:75vh; resize:none; font-family:monospace; overflow-y:auto; user-select:none; font-size:3vw;"></textarea>        
         <p style="position:absolute; border:1px solid rgb(255, 255, 255); top:78vh; left:12.25vw; width:75vw;">        
         <input type="text" placeholder="Ask a question" onKeypress="enterButton(event, document.getElementsByTagName('input')[0].value);" style="color:rgb(146, 146, 233); background-color:rgb(255, 255, 255); width:79%;">       
