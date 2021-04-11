@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
+<link href="https://fonts.googleapis.com/css2?family=Miniver&family=Nunito:wght@200&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>WeCare</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>Chat with our Chatbot! </header>
+    <section class="main">
+            <div class="user-area">
+           
+            </div>
+            <div class="chatarea-main">
+                <div class="chatarea-outer">
+                    <!-- <div class="chatarea-inner user">Hello hi, how area you, i am good. What about you!</div>
+                    <div class="chatarea-inner chatbot">Hello hi, how area you, i am good. What about you!</div>
+                    <div class="chatarea-inner user">Hello hi, how area you, i am good. What about you!</div> -->
+                </div>
+            </div>    
+            <div class="chatbot-area">
+                <img src="pics/rebo.png">
+            </div>
+        <button id="mic"><i class="flaticon-microphone"></i></button>
+    </section>
+    <script src="js/main.js"></script>
+    <script>
+        var menubtn = document.getElementById("menubtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+        
+        sideNav.style.right="-250px";
+        
+        menubtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right="0";
+                menu.src = "pics/close.png";
+            
+            }
+            else{
+                sideNav.style.right="-250px";
+                menu.src = "pics/menu.png";
+            }
+        }
+        </script>
+        <div id="sideNav">
+
+        </div>
+        <div id="menubtn">
+            <img src= "mascot.png" id="menu">
+        </div>
+        
+        <script>
+            var menubtn = document.getElementById("menubtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+            
+            sideNav.style.right="-250px";
+            
+            menubtn.onclick = function(){
+                if(sideNav.style.right == "-250px"){
+                    sideNav.style.right="0";
+                    menu.src = "pics/close.png";
+                
+                }
+                else{
+                    sideNav.style.right="-250px";
+                    menu.src = "pics/menu.png";
+                }
+            }
+            </script>
+ 
+</body>
+</html>
