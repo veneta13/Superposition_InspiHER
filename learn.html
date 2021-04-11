@@ -43,6 +43,40 @@
 
     <!-- CSS rel -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- CSS style -->
+    <style>
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 1rem;
+      }
+      .grid > div {
+        padding: 1.5rem;
+        border-radius: 1rem;
+      }
+      .grid > div:nth-child(3n + 0) {
+        background: #e94b59;
+      }
+      .grid > div:nth-child(3n + 1) {
+        background: #3a70a6;
+      }
+      .grid > div:nth-child(3n + 2) {
+        background: #f7ab4c;
+      }
+      .grid {
+        margin: 2rem;
+      }
+      a {
+        color: white;
+      }
+      a:hover {
+        color: white;
+      }
+      a:visited {
+        color: white;
+      }
+    </style>
   </head>
 
   <body>
@@ -90,6 +124,19 @@
             suitable materials for all!
           </h3>
         </div>
+      </div>
+
+      <div class="grid">
+        <div>
+          <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+        </div>
+        <div>
+          <a href="ttps://www.freecodecamp.org/learn">Visit Free Code Camp!</a>
+        </div>
+        <div><a href="#">Coming Soon</a></div>
+        <div><a href="#">Coming Soon</a></div>
+        <div><a href="#">Coming Soon</a></div>
+        <div><a href="#">Coming Soon</a></div>
       </div>
     </div>
   </body>
