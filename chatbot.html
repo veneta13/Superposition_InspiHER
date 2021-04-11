@@ -31,14 +31,12 @@
 
     <!-- CSS rel -->
     <link rel="stylesheet" href="style.css" />
-
-        <title>inspirHER Bot</title>
-    </head>
-    <body  style="text-align:center;">         
-    <textarea readonly="true" id="botChat" style="text-align:left; position:fixed; display:block; top:3vh; border:1px solid black; width:92.5vw; margin-left:1%; margin-right:2.25%; height:75vh; resize:none; font-family:monospace; overflow-y:auto; user-select:none; font-size:3vw;"></textarea>        
-    <p style="position:absolute; border:1px solid rgb(255, 255, 255); top:78vh; left:12.25vw; width:75vw;">        
-        <input type="text" placeholder="Ask a question" onKeypress="enterButton(event, document.getElementsByTagName('input')[0].value);" style="color:rgb(146, 146, 233); background-color:rgb(255, 255, 255); width:79%;">       
-      <button onClick="answer(document.getElementsByTagName('input')[0].value)">Talk To our ChatBot</button></p>        <script>
+            
+    <!--      Title        -->
+    <title>inspirHER Bot</title>
+    
+     <!--        Game      -->
+     <script>
 var you = "Me";
 var Hello = ["HI", "HEY", "HOWDY", "HEYA", "HOLA", "HELLO", "SUP", "KONNICHIWA", "ALOHA"]
 var Goodbye = ["BYE", "SEE YA", "CYA", "LATER", "ADIOS", "SAYONARA", "SEEYA"]
@@ -291,4 +289,12 @@ function answer(x) {
             function youDo(x) { botSays("\n"+ you + " " + x)                                            
 
             } function enterButton(e, x) { if (e.keyCode == 13) { answer(x); }   }   
- </script></body></html>
+    </script>
+    </head>
+    <body  style="text-align:center;">         
+        <textarea readonly="true" id="botChat" style="text-align:left; position:fixed; display:block; top:3vh; border:1px solid black; width:92.5vw; margin-left:1%; margin-right:2.25%; height:75vh; resize:none; font-family:monospace; overflow-y:auto; user-select:none; font-size:3vw;"></textarea>        
+        <p style="position:absolute; border:1px solid rgb(255, 255, 255); top:78vh; left:12.25vw; width:75vw;">        
+        <input type="text" placeholder="Ask a question" onKeypress="enterButton(event, document.getElementsByTagName('input')[0].value);" style="color:rgb(146, 146, 233); background-color:rgb(255, 255, 255); width:79%;">       
+        <button onClick="answer(document.getElementsByTagName('input')[0].value)">Talk To our ChatBot</button></p>       
+     </body>
+</html>
