@@ -322,9 +322,11 @@ function answer(x) {
           </div>
         </nav>
       </header>
-        <textarea readonly="true" class="offset-md-2 col-md-8" id="botChat" style="text-align:left; display:flex; border:1px #03989e; width:92.5vw; font-family:monospace; overflow-y:auto; user-select:none; font-size:3vw;"></textarea>            
-        <p style="position:absolute; border:1px solid rgb(255, 255, 255); top:78vh; left:12.25vw; width:75vw;">    
+        <div class="row">
+            <textarea readonly="true" class="offset-md-2 col-md-8" id="botChat" style="text-align:left; display:flex; border:1px solid #03989e; width:92.5vw; font-family:monospace; overflow-y:auto; user-select:none; font-size:3vw;"></textarea>            
+        </div>
+         <p style="border:1px solid white;">    
         <input type="text" placeholder="Ask a question" onKeypress="enterButton(event, document.getElementsByTagName('input')[0].value);" style="color:rgb(146, 146, 233); background-color:rgb(255, 255, 255); width:79%;">       
-        <button onClick="answer(document.getElementsByTagName('input')[0].value)">Talk To our ChatBot</button></p>       
+        <button class="btn" onClick="answer(document.getElementsByTagName('input')[0].value)">Talk To our ChatBot</button></p>       
      </body>
 </html>
